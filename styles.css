@@ -1,0 +1,59 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+.landing-page {
+    background-image: url('Oil well of life.jpg'); /* Replace 'your-image.jpg' with your image file name or hosted URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.content {
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+.vision-statement p {
+    margin-bottom: 15px;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background: #ff9800;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #e68900;
+}
