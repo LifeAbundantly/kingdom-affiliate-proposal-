@@ -7,7 +7,7 @@ body, html {
 }
 
 .landing-page {
-    background-image: url('Oil well of life.jpg'); /* Replace 'your-image.jpg' with your image file name or hosted URL */
+    background-image: url('Oil well of life.webp'); /* Replace 'your-image.jpg' with your image file name or hosted URL */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
